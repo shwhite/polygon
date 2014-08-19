@@ -34,10 +34,12 @@ public class devProperties {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
+		}		
 		
 		return 100;
 	}
+	
+	public int getServerPort() { return nServerPort; }
+	public int getMaxThreadCnt() { return nMaxThreadCnt; }
 
 }
